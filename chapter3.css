@@ -1,0 +1,42 @@
+
+
+h1{
+    background-color: rgba(255, 00, 00, 0.7);
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+     margin: 0 auto;
+     transition:  1s ease-in 0.5s;
+     box-shadow: 0 0 15px 5px black;
+     border: 5px solid green;
+     background-image: url(mypic.JPG);
+     background-size: cover;
+}
+
+div:hover{
+    background-color: black;
+    
+   margin-top: 150px;
+   border-top-right-radius: 50px;
+   border-bottom-left-radius: 50px;
+   transform: rotate(90deg);
+   transform: scale(0.5);
+   transform: translate(100px,100px );
+}
+
+div:active{
+    transform: rotate(90deg);
+}
+
+
+
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin:0 auto;
+    transform: translate(550px);
+}

@@ -1,0 +1,91 @@
+*{
+    font-family: 'Courier New';
+    
+}
+h1{
+    color: #1b74e4
+}
+
+#buttin{
+    background-color: black;
+    color: white;
+}
+
+.khan{
+    background-color: aqua;
+}
+
+<!--quaston-->
+#mainTopic{
+    color: blue;
+}
+
+*{
+    text-align: center;
+}
+
+.h1,
+h3,
+h5{
+    font-family: georgia;
+}
+
+.change{
+    color: white;
+    background-color:cornflowerblue ;
+}
+
+div button{
+    background-color: purple;
+    color: azure;
+}
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-of-type(odd){
+    background-color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+#yes:checked + label {
+    color: pink;   
+}
+
+#kh{
+    height: 200px;
+    width: 300px; 
+    background-color: purple;
+    border: solid;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: gold;
+    padding-top: 10px;
+    
+    border-top-right-radius: 30px;
+
+   
+}
+
+#jk{
+    height: 300px;
+    width: 300px; 
+    border-radius: 50px;
+    border: 5px solid black;
+    background-color:chartreuse;
+    margin-bottom: 25px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+#sir{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+

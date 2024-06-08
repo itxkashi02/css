@@ -1,0 +1,127 @@
+*{
+    font-family: 'Courier New';
+}
+h3,
+h1{
+    color: black;
+}
+
+#uprovt{
+    color: blue;
+}
+
+#signin{
+   font-weight: 900;
+   background-color: brown;
+   color: white;
+}
+
+.a a{
+    color: red;
+    background-color: white;
+}
+
+#myid input{
+    color: green;
+}
+
+div a{
+    color: brown;
+    background-color: black;
+}
+
+nav ul li {
+    color: blue;
+}
+
+.chang {
+        background-color: yellow;
+}
+
+.chang + button {
+    background-color: darkblue;
+    color: white;
+}
+
+div > input{
+    background-color: deeppink;;
+    color: white;
+}
+
+input[type="text"]{
+    color: white;
+    background-color: black;
+}
+
+input[type="password"]
+{
+    color: black;
+}
+
+input[type]{
+    background-color: chartreuse;
+}
+
+div .khan .jan{
+    color: green;
+}
+
+.khan p.jan{
+    color: blue;
+}
+
+.khan.jan{
+    color: red;
+}
+
+button:hover{
+    background-color: black ;
+    color: white;
+}
+
+button:active{
+    background-color: aqua;
+    color: red;
+}
+
+p:active{
+    font-weight: 900;
+    color: chartreuse;
+}
+
+input[type="radio"]:checked+label{
+    background-color: rgb(10, 10, 7);
+    font-weight: bold;
+    color: blue;
+}
+
+div:nth-of-type(2n){
+    background-color: lightgreen;
+    font-weight: bold;
+    color: black;
+}
+
+h1::first-letter{
+    font-weight: bold;
+    background-color: aqua;
+}
+
+p::first-line{
+    color: brown;
+    font-size: larger;
+}
+
+p::selection{
+    background-color: magenta;
+    font-weight: 900;
+    color: blue;
+}
+
+h3{
+    background-color: yellow;
+}
+
+h3{
+    background-color: rgb(85, 59, 11) ;
+}
+

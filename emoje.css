@@ -1,0 +1,71 @@
+#big{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 10px;
+
+}
+
+.smmal{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    margin: 35px;
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    top:20px;
+    left: 10px;
+}
+
+.smmal:hover{
+    background-color: green;
+}
+
+#poza{
+    height: 40px;
+    width: 15px;
+    background-color: darkred;
+    position: relative;
+    left: 95px;
+    bottom: 13px;
+
+}
+
+#kache{
+    height: 10px;
+    width: 10px;
+    background-color:brown;
+    margin: 3px;
+    position: relative;
+    top: 33px;
+    right: 5px;
+    border-radius: 50px;
+    box-shadow: 0 0 10xp 10px ;
+}
+
+
+#bal{
+    height: 10px;
+    width: 10px;
+    background-color:brown ;
+    margin: 3px;
+    position: relative;
+    top: 20px;
+    left: 6px;
+    border-radius: 50px;
+    box-shadow: 0 0 10xp 50px ;
+}
+
+#mid{
+    height: 25px;
+    width: 70px;
+    background-color: brown;
+    border-radius: 0 0 15px 15px ;
+    position: relative;
+    left: 68px;
+    top: 10px;
+    
+}

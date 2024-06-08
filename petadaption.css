@@ -1,0 +1,36 @@
+i{
+    color: rgb(53, 53, 211);
+    font-size: 20px;
+}
+
+span{
+    color: darkolivegreen;
+}
+
+#hool{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.superin{
+    width: 190;
+    border-radius: 10px;
+}
+
+.iner{
+    height: 380px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+@media(max-width:375px){
+    #hool{
+        flex-wrap: wrap;
+    }
+
+}
